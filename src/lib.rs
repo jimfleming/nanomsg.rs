@@ -1,4 +1,4 @@
-#![feature(libc, core, std_misc, collections, io)]
+#![feature(libc, core, std_misc, collections, io, old_io)]
 
 extern crate libc;
 extern crate "nanomsg-sys" as libnanomsg;
